@@ -19,8 +19,6 @@ export const projects: Project[] = [
     date: "Oct 2025",
     icon: LayoutDashboard,
     image: 'public/projects/MultiAgentSystem.png',
-    link: "#",
-    github: "#"
   },
   {
     title: "AI Multi-Agent System",
@@ -29,8 +27,6 @@ export const projects: Project[] = [
     date: "Sept 2025",
     icon: Bot,
     image: 'public/projects/ChatInterface.png',
-    link: "#",
-    github: "#"
   },
   {
     title: "Learn2Slither",
@@ -39,8 +35,7 @@ export const projects: Project[] = [
     date: "April 2025",
     icon: Brain,
     image: 'public/projects/Learn2Slither.png',
-    link: "#",
-    github: "#"
+    github: "https://github.com/lmoheyma/Learn2Slither"
   },
   {
     title: "Multilayer Perceptron",
@@ -49,8 +44,7 @@ export const projects: Project[] = [
     date: "March 2025",
     icon: Brain,
     image: 'public/projects/MultilayerPerceptron.png',
-    link: "#",
-    github: "#"
+    github: "https://github.com/lmoheyma/multilayer-perceptron"
   },
   {
     title: "Inception-Of-Things",
@@ -59,7 +53,6 @@ export const projects: Project[] = [
     date: "July 2025",
     icon: Network,
     image: 'public/projects/Kubernetes.png',
-    link: "#",
-    github: "#"
+    github: "https://github.com/DayaLiuzzo/IoT"
   },
 ];

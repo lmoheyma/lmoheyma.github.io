@@ -1,5 +1,5 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { ExternalLink, Github, X } from "lucide-react";
+import { ExternalLink, Github, X, Lock } from "lucide-react";
 import { projects } from "@/data/projects";
 import { Button } from "@/components/ui/button";
 import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
@@ -68,9 +68,19 @@ const Projects = () => {
 
                 <CardHeader>
                   <div className="flex items-start justify-between gap-4">
-                    <CardTitle className="text-xl group-hover:text-primary transition-colors">
-                      {project.title}
-                    </CardTitle>
+                    <div className="flex-1">
+                      <CardTitle className="text-xl group-hover:text-primary transition-colors">
+                        {project.title}
+                      </CardTitle>
+                      {!project.github && !project.link && (
+                        <div className="flex items-center gap-2 mt-2">
+                          <Lock className="h-3.5 w-3.5 text-muted-foreground" />
+                          <span className="text-xs text-muted-foreground italic">
+                            Private project - Developed for a company
+                          </span>
+                        </div>
+                      )}
+                    </div>
                     <div className="flex gap-2 flex-shrink-0">
                       {project.github && (
                         <Button

@@ -1,9 +1,9 @@
 import { Code2, Database, Brain, Briefcase, GraduationCap, Sparkles, Globe, Award } from "lucide-react";
 
 const skills = {
-  languages: ["Python", "TypeScript", "JavaScript", "C++", "C#", "Java", "SQL", "Bash"],
-  aiTools: ["Google ADK", "Vertex AI", "MCP", "A2A", "Keras", "TensorFlow", "Scikit-learn"],
-  technologies: ["Docker", "GCP", "FastAPI", "NumPy", "Pandas", "Git"],
+  languages: ["Python", "TypeScript", "JavaScript", "C", "C++", "C#", "Java", "SQL", "Bash"],
+  aiTools: ["Google ADK", "Vertex AI", "MCP", "A2A", "LangChain", "Keras", "TensorFlow", "Scikit-learn"],
+  technologies: ["Docker", "GCP", "FastAPI", "NumPy", "Pandas", "Git", "React", "Kubernetes"],
 };
 
 const experiences = [
