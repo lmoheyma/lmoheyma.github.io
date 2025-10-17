@@ -42,12 +42,12 @@ const Projects = () => {
                             <div className="absolute inset-0 bg-gradient-to-t from-background/30 to-transparent" />
                           </div>
                         </DialogTrigger>
-                        <DialogContent className="max-w-[90vw] max-h-[95vh] p-0 border-0 bg-transparent shadow-none">
+                        <DialogContent className="max-w-fit max-h-fit p-0 border-0 bg-transparent shadow-none">
                           <div className="relative">
                             <img 
                               src={project.image} 
                               alt={project.title}
-                              className="max-h-[90vh] max-w-[90vw] w-auto h-auto rounded-lg"
+                              className="max-h-[90vh] max-w-[90vw] w-auto h-auto rounded-lg object-contain"
                             />
                           </div>
                         </DialogContent>
