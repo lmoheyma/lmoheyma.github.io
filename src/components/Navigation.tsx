@@ -78,7 +78,7 @@ const Navigation = () => {
             asChild
             className="hover:bg-secondary hidden sm:flex"
           >
-            <a href="public/cv.pdf" target="_blank" rel="noopener noreferrer">
+            <a href="/cv.pdf" target="_blank" rel="noopener noreferrer">
               <FileText className="h-4 w-4 mr-2" />
               CV
             </a>

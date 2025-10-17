@@ -18,7 +18,7 @@ export const projects: Project[] = [
     technologies: ["React", "TypeScript", "Supabase", "Stripe", "VertexAI", "Multi-tenant"],
     date: "Oct 2025",
     icon: LayoutDashboard,
-    image: 'public/projects/MultiAgentSystem.png',
+    image: '/projects/MultiAgentSystem.png',
   },
   {
     title: "AI Multi-Agent System",
@@ -26,7 +26,7 @@ export const projects: Project[] = [
     technologies: ["Google ADK", "RAG", "MCP", "Long-Term Memory", "GCP", "A2A"],
     date: "Sept 2025",
     icon: Bot,
-    image: 'public/projects/ChatInterface.png',
+    image: '/projects/ChatInterface.png',
   },
   {
     title: "Learn2Slither",
@@ -34,7 +34,7 @@ export const projects: Project[] = [
     technologies: ["Python", "Reinforcement Learning", "Q-Learning", "Tkinter"],
     date: "April 2025",
     icon: Brain,
-    image: 'public/projects/Learn2Slither.png',
+    image: '/projects/Learn2Slither.png',
     github: "https://github.com/lmoheyma/Learn2Slither"
   },
   {
@@ -43,7 +43,7 @@ export const projects: Project[] = [
     technologies: ["Python", "NumPy", "Pandas", "Neural Networks"],
     date: "March 2025",
     icon: Brain,
-    image: 'public/projects/MultilayerPerceptron.png',
+    image: '/projects/MultilayerPerceptron.png',
     github: "https://github.com/lmoheyma/multilayer-perceptron"
   },
   {
@@ -52,7 +52,7 @@ export const projects: Project[] = [
     technologies: ["Docker", "Kubernetes", "K3S", "K3D", "CI/CD"],
     date: "July 2025",
     icon: Network,
-    image: 'public/projects/Kubernetes.png',
+    image: '/projects/Kubernetes.png',
     github: "https://github.com/DayaLiuzzo/IoT"
   },
 ];
