@@ -12,12 +12,12 @@ const Navigation = () => {
       <nav className="container mx-auto px-6 h-16 flex items-center justify-between">
         <Link
           to="/"
-          className="text-xl font-semibold hover:opacity-70 transition-opacity"
+          className="text-xl font-semibold hover:opacity-70 transition-opacity flex-1"
         >
-          Louis
+          Louis Moheymani
         </Link>
 
-        <div className="flex items-center gap-1">
+        <div className="flex items-center gap-1 flex-1 justify-center">
           <Button
             variant="ghost"
             asChild
@@ -41,7 +41,7 @@ const Navigation = () => {
           </Button>
         </div>
 
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-2 flex-1 justify-end">
           <Button
             variant="ghost"
             size="icon"
@@ -49,7 +49,7 @@ const Navigation = () => {
             className="hover:bg-secondary"
           >
             <a
-              href="https://linkedin.com"
+              href="https://linkedin.com/in/louis-moheymani"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="LinkedIn"
