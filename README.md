@@ -1,8 +1,62 @@
-# Welcome to your Lovable project
+# Portfolio - Louis Moheyma
 
-## Project info
+AI Engineer specializing in multi-agent systems and machine learning.
 
-**URL**: https://lovable.dev/projects/f2289a35-c44f-4c10-9ced-0584aac9c786
+## 🚀 Live Demo
+
+Visit the portfolio at: [https://lmoheyma.github.io/portfolio/](https://lmoheyma.github.io/portfolio/)
+
+## 🛠️ Technologies
+
+- **Frontend**: React, TypeScript, Vite
+- **UI**: Tailwind CSS, shadcn/ui
+- **Deployment**: GitHub Pages
+- **Icons**: Lucide React
+
+## 📦 Installation
+
+```bash
+npm install
+```
+
+## 🏃 Development
+
+```bash
+npm run dev
+```
+
+## 🏗️ Build
+
+```bash
+npm run build
+```
+
+## 🚀 Deploy to GitHub Pages
+
+### Automatic Deployment
+
+The site automatically deploys to GitHub Pages when you push to the `main` branch via GitHub Actions.
+
+### Manual Deployment
+
+```bash
+npm run deploy
+```
+
+## 📝 Project Structure
+
+```
+src/
+├── components/     # Reusable UI components
+├── pages/         # Page components (Home, Projects, About)
+├── data/          # Project data configuration
+├── lib/           # Utility functions
+└── hooks/         # Custom React hooks
+```
+
+## ⚙️ Configuration
+
+To update your projects, edit `src/data/projects.ts`
 
 ## How can I edit this code?
 
