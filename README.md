@@ -4,7 +4,7 @@ AI Engineer specializing in multi-agent systems and machine learning.
 
 ## 🚀 Live Demo
 
-Visit the portfolio at: [https://lmoheyma.github.io/portfolio/](https://lmoheyma.github.io/portfolio/)
+Visit the portfolio at: [https://lmoheyma.github.io/](https://lmoheyma.github.io/)
 
 ## 🛠️ Technologies
 
